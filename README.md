@@ -30,5 +30,5 @@ REFER TO DETAILED-INFO-ON-UTILITY.PDF DOCUMENT FOR SPECIFICS ON THIS UTILITY.
 * Copy/Download the secprotomgmt.jar from Runnable-jar folder (from the uploaded file) and unzip on to local drive folder say c:\SecurityProtoMgmt
 * Open a command prompt and cd to the folder, lets say
 cd SecurityProtoMgmt
-* Run a command like shown below to see various usage commands, 
+* Run a command like shown below to see various usage commands,  
 C:\SecurityProtoMgmt>java -jar secprotomgmt.jar --help
