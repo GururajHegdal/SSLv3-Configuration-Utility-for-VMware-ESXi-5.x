@@ -1,5 +1,6 @@
 # SSLv3-Configuration-Utility-for-VMware-ESXi-5.x
-SSLv3 Security protocol configuration utility for VMware ESXi Server 5.x (5.0/5.1/5.5 releases)
+SSLv3 Security protocol configuration utility for VMware ESXi Server 5.x (5.0/5.1/5.5 releases)  
+REFER TO DETAILED-INFO-ON-UTILITY.PDF DOCUMENT FOR SPECIFICS ON THIS UTILITY.
 
 ### 1. Features
 * Automatically modify the configuration files and run esxcli commands to disable\enable SSLv3 on all ESXi Services (Authd, Hostd/Rhttpproxy, SFCBD, Virtual SAN VP)  
@@ -23,7 +24,7 @@ SSLv3 Security protocol configuration utility for VMware ESXi Server 5.x (5.0/5.
 ##### Run from Dev IDE
 * Import files under the src/com/vmware/secprotomgmt folder into your IDE.
 * Required libraries are embedded within Runnable-Jar/secprotomgmt.jar, extract & import the libraries into the project.
-* Run the utility from 'RunApp' program by providing arguments "--vsphereip <vc/esxi server IP> --username <uname> --password <pwd> [gethosts] [--hostsinfofile <pathToHostsListfile>] [enablessl] [disablessl]"
+* Run the utility from 'RunApp' program by providing arguments like: --vsphereip 1.2.3.4  --username adminUser --password dummyPasswd  [gethosts] [--hostsinfofile <pathToHostsListfile>] [enablessl] [disablessl]
 
 ##### Run from Pre-built Jars
 * Copy/Download the secprotomgmt.jar from Runnable-jar folder (from the uploaded file) and unzip on to local drive folder say c:\SecurityProtoMgmt
@@ -31,5 +32,3 @@ SSLv3 Security protocol configuration utility for VMware ESXi Server 5.x (5.0/5.
 cd SecurityProtoMgmt
 * Run a command like shown below to see various usage commands, 
 C:\SecurityProtoMgmt>java -jar secprotomgmt.jar --help
-
-REFER TO README DOCUMENT FOR DETAILS ON THIS UTILITY.
